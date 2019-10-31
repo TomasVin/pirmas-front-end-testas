@@ -15,4 +15,16 @@ body * {
     /* aukstis visada fiksuoti 400 pikseliu */
     margin: 200px calc( (100% - 50%) / 2 );
     /* divo pozicija ekrane */
+    text-align: center;
 }
+    p {
+       display: inline-block;
+       width: 100%; 
+       line-height: 40px;
+       font-size: 20px;
+       /* srifto dydis */
+       color: #fff;
+       /* teksto spalva */
+       text-transform: capitalize;
+       /* kiekvienas zodis prasideda didziaja raide */
+    }
